@@ -241,6 +241,7 @@ main {
   border-radius: 15px;
   margin-top: 40px;
   padding: 31px 50px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 .statictik1 {
   display: flex;
@@ -296,4 +297,97 @@ main {
 }
 .post-img img:nth-child(5) {
   left: 80px;
+}
+/* Card wrapper */
+.table-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Header: Search + Sort */
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 200px;
+  outline: none;
+}
+
+.sort-select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  color: #888;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+tbody td {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f9f9f9;
+}
+
+/* Status badge */
+.status {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status.inactive {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.page {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page.active {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
 }
