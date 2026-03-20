@@ -228,3 +228,47 @@ main {
   background-color: white;
   border: none;
 }
+.input h4 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  line-height: 100%;
+}
+.statictika {
+  display: flex;
+  gap: 110px;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding: 31px 50px;
+}
+.statictik1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.information {
+  max-width: 114px;
+
+  p {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -1%;
+    color: #acacac;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: -1%;
+  }
+}
+.foiz {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.foiz .text-foiz {
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -1%;
+}
