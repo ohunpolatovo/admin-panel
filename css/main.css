@@ -272,3 +272,28 @@ main {
   line-height: 100%;
   letter-spacing: -1%;
 }
+
+.post-img {
+  position: relative;
+  height: 40px;
+}
+
+.post-img img {
+  position: absolute;
+}
+
+.post-img img:nth-child(1) {
+  left: 0;
+}
+.post-img img:nth-child(2) {
+  left: 20px;
+}
+.post-img img:nth-child(3) {
+  left: 40px;
+}
+.post-img img:nth-child(4) {
+  left: 60px;
+}
+.post-img img:nth-child(5) {
+  left: 80px;
+}
